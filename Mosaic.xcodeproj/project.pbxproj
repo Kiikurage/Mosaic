@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFD5BAFA19B92CAF00FBCE5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD5BAF919B92CAF00FBCE5A /* main.m */; };
+		EFD5BAFD19B92CAF00FBCE5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD5BAFC19B92CAF00FBCE5A /* AppDelegate.m */; };
+		EFD5BAFF19B92CAF00FBCE5A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD5BAFE19B92CAF00FBCE5A /* Images.xcassets */; };
+		EFD5BB0219B92CAF00FBCE5A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFD5BB0019B92CAF00FBCE5A /* MainMenu.xib */; };
+		EFD5BB0E19B92CAF00FBCE5A /* MosaicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD5BB0D19B92CAF00FBCE5A /* MosaicTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFD5BB0819B92CAF00FBCE5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFD5BAEC19B92CAE00FBCE5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFD5BAF319B92CAE00FBCE5A;
+			remoteInfo = Mosaic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFD5BAF419B92CAF00FBCE5A /* Mosaic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mosaic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD5BAF819B92CAF00FBCE5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD5BAF919B92CAF00FBCE5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFD5BAFB19B92CAF00FBCE5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFD5BAFC19B92CAF00FBCE5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFD5BAFE19B92CAF00FBCE5A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EFD5BB0119B92CAF00FBCE5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EFD5BB0719B92CAF00FBCE5A /* MosaicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MosaicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD5BB0C19B92CAF00FBCE5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD5BB0D19B92CAF00FBCE5A /* MosaicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MosaicTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFD5BAF119B92CAE00FBCE5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD5BB0419B92CAF00FBCE5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFD5BAEB19B92CAE00FBCE5A = {
+			isa = PBXGroup;
+			children = (
+				EFD5BAF619B92CAF00FBCE5A /* Mosaic */,
+				EFD5BB0A19B92CAF00FBCE5A /* MosaicTests */,
+				EFD5BAF519B92CAF00FBCE5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFD5BAF519B92CAF00FBCE5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFD5BAF419B92CAF00FBCE5A /* Mosaic.app */,
+				EFD5BB0719B92CAF00FBCE5A /* MosaicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFD5BAF619B92CAF00FBCE5A /* Mosaic */ = {
+			isa = PBXGroup;
+			children = (
+				EFD5BAFB19B92CAF00FBCE5A /* AppDelegate.h */,
+				EFD5BAFC19B92CAF00FBCE5A /* AppDelegate.m */,
+				EFD5BAFE19B92CAF00FBCE5A /* Images.xcassets */,
+				EFD5BB0019B92CAF00FBCE5A /* MainMenu.xib */,
+				EFD5BAF719B92CAF00FBCE5A /* Supporting Files */,
+			);
+			path = Mosaic;
+			sourceTree = "<group>";
+		};
+		EFD5BAF719B92CAF00FBCE5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFD5BAF819B92CAF00FBCE5A /* Info.plist */,
+				EFD5BAF919B92CAF00FBCE5A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFD5BB0A19B92CAF00FBCE5A /* MosaicTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFD5BB0D19B92CAF00FBCE5A /* MosaicTests.m */,
+				EFD5BB0B19B92CAF00FBCE5A /* Supporting Files */,
+			);
+			path = MosaicTests;
+			sourceTree = "<group>";
+		};
+		EFD5BB0B19B92CAF00FBCE5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFD5BB0C19B92CAF00FBCE5A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFD5BAF319B92CAE00FBCE5A /* Mosaic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD5BB1119B92CAF00FBCE5A /* Build configuration list for PBXNativeTarget "Mosaic" */;
+			buildPhases = (
+				EFD5BAF019B92CAE00FBCE5A /* Sources */,
+				EFD5BAF119B92CAE00FBCE5A /* Frameworks */,
+				EFD5BAF219B92CAE00FBCE5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mosaic;
+			productName = Mosaic;
+			productReference = EFD5BAF419B92CAF00FBCE5A /* Mosaic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFD5BB0619B92CAF00FBCE5A /* MosaicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD5BB1419B92CAF00FBCE5A /* Build configuration list for PBXNativeTarget "MosaicTests" */;
+			buildPhases = (
+				EFD5BB0319B92CAF00FBCE5A /* Sources */,
+				EFD5BB0419B92CAF00FBCE5A /* Frameworks */,
+				EFD5BB0519B92CAF00FBCE5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFD5BB0919B92CAF00FBCE5A /* PBXTargetDependency */,
+			);
+			name = MosaicTests;
+			productName = MosaicTests;
+			productReference = EFD5BB0719B92CAF00FBCE5A /* MosaicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFD5BAEC19B92CAE00FBCE5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = KikuraYuichiro;
+				TargetAttributes = {
+					EFD5BAF319B92CAE00FBCE5A = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					EFD5BB0619B92CAF00FBCE5A = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = EFD5BAF319B92CAE00FBCE5A;
+					};
+				};
+			};
+			buildConfigurationList = EFD5BAEF19B92CAE00FBCE5A /* Build configuration list for PBXProject "Mosaic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFD5BAEB19B92CAE00FBCE5A;
+			productRefGroup = EFD5BAF519B92CAF00FBCE5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFD5BAF319B92CAE00FBCE5A /* Mosaic */,
+				EFD5BB0619B92CAF00FBCE5A /* MosaicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFD5BAF219B92CAE00FBCE5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD5BAFF19B92CAF00FBCE5A /* Images.xcassets in Resources */,
+				EFD5BB0219B92CAF00FBCE5A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD5BB0519B92CAF00FBCE5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFD5BAF019B92CAE00FBCE5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD5BAFD19B92CAF00FBCE5A /* AppDelegate.m in Sources */,
+				EFD5BAFA19B92CAF00FBCE5A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD5BB0319B92CAF00FBCE5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD5BB0E19B92CAF00FBCE5A /* MosaicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFD5BB0919B92CAF00FBCE5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFD5BAF319B92CAE00FBCE5A /* Mosaic */;
+			targetProxy = EFD5BB0819B92CAF00FBCE5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFD5BB0019B92CAF00FBCE5A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFD5BB0119B92CAF00FBCE5A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFD5BB0F19B92CAF00FBCE5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EFD5BB1019B92CAF00FBCE5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EFD5BB1219B92CAF00FBCE5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Mosaic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFD5BB1319B92CAF00FBCE5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Mosaic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EFD5BB1519B92CAF00FBCE5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MosaicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mosaic.app/Contents/MacOS/Mosaic";
+			};
+			name = Debug;
+		};
+		EFD5BB1619B92CAF00FBCE5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MosaicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mosaic.app/Contents/MacOS/Mosaic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFD5BAEF19B92CAE00FBCE5A /* Build configuration list for PBXProject "Mosaic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD5BB0F19B92CAF00FBCE5A /* Debug */,
+				EFD5BB1019B92CAF00FBCE5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD5BB1119B92CAF00FBCE5A /* Build configuration list for PBXNativeTarget "Mosaic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD5BB1219B92CAF00FBCE5A /* Debug */,
+				EFD5BB1319B92CAF00FBCE5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFD5BB1419B92CAF00FBCE5A /* Build configuration list for PBXNativeTarget "MosaicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD5BB1519B92CAF00FBCE5A /* Debug */,
+				EFD5BB1619B92CAF00FBCE5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFD5BAEC19B92CAE00FBCE5A /* Project object */;
+}
