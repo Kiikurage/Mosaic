@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  MOAppDelegate.h
 //  Mosaic
 //
 //  Created by KikuraYuichirou on 2014/09/05.
@@ -7,9 +7,11 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "MOWindow.h"
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
 
+
+@interface MOAppDelegate : NSObject <NSApplicationDelegate>
 
 @end
 
